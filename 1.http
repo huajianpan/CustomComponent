@@ -1,0 +1,9 @@
+POST  www.baidu.com/
+###
+POST www.baidu.com/
+Content-Type: application/json
+
+{
+  "title":"New post",
+  "title2":"New post2"
+}
