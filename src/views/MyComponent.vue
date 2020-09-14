@@ -4,7 +4,7 @@
     <Button  color="red">12</Button>
 
     <Button color="blue" @click.native="alertmsg">我是全局按钮</Button>
-
+    <ShowLoading style="width:150px;height:150px;"/>
   </div>
 </template>
 <script>

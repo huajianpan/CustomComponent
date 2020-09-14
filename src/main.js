@@ -8,6 +8,8 @@ import echarts from 'echarts'
 import Button from '@/components/Button/Button.js'
 
 import Message from '@/components/Message/Message.js'
+import ShowLoading from '@/components/ShowLoading/ShowLoading.js'
+
 Vue.prototype.$message = Message
 
 Vue.config.productionTip = false
@@ -15,6 +17,7 @@ Vue.config.productionTip = false
 Vue.prototype.$echarts = echarts
 // 4
 Vue.use(Button)
+Vue.use(ShowLoading)
 
 new Vue({
   router,
