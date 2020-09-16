@@ -4,10 +4,14 @@
     <Button  color="red">12</Button>
 
     <Button color="blue" @click.native="alertmsg">我是全局按钮</Button>
+
+    <ShowLoading  title='加载中' />
+
     <ToggleCard >
       <slot name="face">123</slot>
       <slot name="back">234</slot>
     </ToggleCard>
+
   </div>
 </template>
 <script>
