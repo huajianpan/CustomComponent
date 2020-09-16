@@ -1,0 +1,24 @@
+1.空文件夹下 cmd-》git clone -b wx1.0 http://ybdw.tpddns.cn:10080/huanghongfa/ybdw_app.git  输入公司gitlab账号
+http://ybdw.tpddns.cn:10080/huanghongfa/ybdw_app.git
+指定分支    git clone -b + 要clone的分支名 + 仓库地址
+不指定分支默认是master  git clone  + clone 地址
+2.cd ybdw_app
+3.git status
+4.git add .
+5.git commit -m "新增交易、积分的明细与统计"
+【git branch】
+6.git push
+//************************************
+uni.showLoading({
+	title: '请稍等',
+    mask: true
+})
+uni.showToast({
+	title: '请填写详细地址',
+	duration: 1000,
+	icon: 'none'
+});
+uni.hideLoading()
+
+uniapp--不支持npm命令行安装，只好使用下载好放入node_modules下
+	单页面应用使用微信jssdk，需要在每个路由地址下引入包
