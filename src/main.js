@@ -8,6 +8,8 @@ import echarts from 'echarts'
 import Button from '@/components/Button/Button.js'
 
 import Message from '@/components/Message/Message.js'
+import ToggleCard from '@/components/ToggleCard/ToggleCard.js'
+
 Vue.prototype.$message = Message
 
 Vue.config.productionTip = false
@@ -15,6 +17,7 @@ Vue.config.productionTip = false
 Vue.prototype.$echarts = echarts
 // 4
 Vue.use(Button)
+Vue.use(ToggleCard)
 
 new Vue({
   router,
